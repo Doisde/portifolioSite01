@@ -1,0 +1,77 @@
+body {
+  /* Layout Properties */
+top: 0px;
+left: 0px;
+width: 1920px;
+height: 1080px;
+/* UI Properties */
+background: #213050 0% 0% no-repeat padding-box;
+background-size: cover;
+opacity: 1;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    text-align: none;
+  }
+  
+  h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #0f0f0f;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #0e0a0a;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+ button[type="submit"]{
+     /* estilos aqui */
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ }
+ .form-group{
+background-color: #ffffff;
+padding: 20px 10px;
+border-bottom: 1px solid #ccc;
+border-radius: 5px;
+}
+
+::-webkit-input-placeholder { /* Chrome, Safari, Opera */
+  opacity: 1;
+  border: none;
+  border-bottom: 50px solid #030814;
+  background-color: #F2F4F8;
+}
+
+::-moz-placeholder { /* Firefox */
+  opacity: 1;
+  border: none;
+  border-bottom: 50px solid #213050;
+}
+
+:-ms-input-placeholder { /* Internet Explorer */
+  opacity: 1;
+  border:none;
+  border-bottom: 50px solid #213050;
+}
+
+::placeholder { /* Standard */
+  opacity: 1;
+  border: none;
+  border-bottom: 50px solid #213050;
+}

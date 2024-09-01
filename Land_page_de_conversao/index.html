@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Captura de Lead</title>
+  <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+  <div class="container">
+
+    <form id="leadForm">
+      
+      <div class="form-group">
+        <h1>Solicite seu cadastro</h1>
+        <p>Preencha o formulário abaixo e entre em contato conosco!</p>
+
+        <input type="text" id="nome" name="nome" placeholder="Nome"required>
+      </div>
+
+      <div class="form-group">
+        <input type="email" id="email" name="email" placeholder="e-mail" required>
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="whatsapp" name="whatsapp" placeholder="WhatsApp" required>
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="empresa" name="empresa" placeholder="Nome da sua Empresa" required>
+      </div>
+
+      <div class="form-group">
+        <input type="text" id="cnpj" name="cnpj" placeholder="CNPJ" required>
+      </div>
+
+      <div class="form-group">
+        
+        <select id="segmento" name="segmento" required>
+          <option value="">Qual o seu seguimento de interesse?
+            <label for="segmento"><span class="required">*</span></label></option>
+          <option value="seguranca_eletronica">Segurança Eletrônica</option>
+          <option value="redes_e_fibra_optica">Redes e Fibra Ótica</option>
+          <option value="telecom">Telecom</option>
+          <option value="automacao">Automação</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <select id="conheceu" name="conheceu" required>
+          <option value="">Como conheceu a Fix Distribuidora?
+            <label for="segmento"><span class="required">*</span></label>
+          </option>
+          <option value="google">Google</option>
+          <option value="linkedin">LinkedIn</option>
+          <option value="instagram">Instagram</option>
+          <option value="facebook">Facebook</option>
+          <option value="recomendacao">Recomendação</option>
+          <option value="radio">Rádio</option>
+          <option value="outdoor">Outdoor</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <select id="regiao" name="regiao" required>
+          <option value="">Qual a sua Região?
+            <label for="segmento"><span class="required">*</span></label>
+          </option>
+          <option value="regiao_dos_lagos">Região dos Lagos</option>
+          <option value="rio_de_janeiro">Rio de Janeiro</option>
+          <option value="regiao_serrana">Região Serrana</option>
+        </select>
+      </div>
+
+      <button type="submit">Enviar Solicitação</button>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
