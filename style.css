@@ -23,4 +23,18 @@ h2{
     padding: 10px;
 
   }
- 
+ footer{
+  background-color: #061C3E;
+  flex: 0 0 auto;
+  text-align: center;
+ }
+ footer, h5{
+  color: #ffffff;
+ }
+
+ footer, div, hr{
+  color:  #28ABE2;
+ }
+ #newsletter{
+  background-color: #F4F7FC;
+ }
