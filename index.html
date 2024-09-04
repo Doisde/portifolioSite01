@@ -26,9 +26,7 @@
             <li><a href="#" class="nav-link px-2">Cursos e Worshops</a></li>
             <li><a href="#" class="nav-link px-2">Blog</a></li>
             <li><a href="#" class="nav-link px-2">Contato</a></li>
-       
           </ul>
-    
           <div class="col-md-3 text-end">
             <button type="button" class="btn btn-secondary btn-lg" id="button">Seja um revendedor</button>
           </div>
@@ -103,7 +101,7 @@
 
  <!-- Sessão cursos -->
   <section>
-<div>
+<div class="container-fluid" id="cursos">
   <div class="card-group">
     <div class="card">
       <img src="assests/artigo/Solução e tecnologia.png" class="card-img-top" alt="...">
@@ -113,70 +111,63 @@
     </div>
     <div class="card">
       <img src="assests/artigo/Análise de crédito_Fix Distribuidora.png" class="card-img-top" alt="...">
-      <div class="card-body">
-      <a class="btn btn-success">Cursos e workshops</a>
 
+      <div class="card-body d-flex justify-content-between align-items-center">
+      <button class="btn btn-success w-20 h-20 mt-5 mx-5">Cursos e workshop</button>
       </div>
+      
     </div>
   </div>
 </div>
   </section>
  <!-- Fim Sessão cursos -->
 
- <!-- Sessão banner -->
-  <section>
-
-  </section>
- <!-- Fim Sessão Banner -->
-
- <!-- Sessão banner -->
-  <section>
-
-  </section>
- <!-- Fim Sessão -->
-
  <!-- Sessão newsletter -->
   <section>
     <div class="container-fluid">
-      <h5 class="card-title">Assine
+      <h5 class="card-title text-center mb-2">Assine
         e receba nossas novidades</h5>
-    </div>
-     <div class="" id="newsletter">
-      <div class="row justify-content-center">
-        <div class="col-md-6">
-          <div class="card">
-            <div class="card-body">
-              <form>
-                <div class="mb-3">
-                  <input type="text" class="form-control" id="nome" placeholder="Nome">
+        <div class="container-fluid" id="newsletter">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <form>
+                    <div class="mb-3">
+                      <input type="text" class="form-control" id="nome" placeholder="Nome">
+                    </div>
+                    <div class="mb-3">
+                      <input type="email" class="form-control" id="email" placeholder="E-mail">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar</button>
+                  </form>
                 </div>
-                <div class="mb-3">
-                  <input type="email" class="form-control" id="email" placeholder="E-mail">
-                </div>
-                <button type="submit" class="btn btn-primary">Enviar</button>
-              </form>
+              </div>
             </div>
           </div>
         </div>
-      </div>
     </div>
   </section>
+     
  <!-- Fim Sessão newsletter -->
 
  <!--Sessão footer-->
-  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
-    <div class="col mb-3">
+
+  <footer id="footer" class="site-footer row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+
+    <div class="icon-link col mb-3">
+      
       <a href="/" class="d-inline-flex link-body-emphasis text-decoration-none">
         <img src="assests/logo/Fix-Distribuidora-branca.png" width="80" class="img-fluid" alt="logo">
       </a>
       
     </div>
 
-    <div class="col mb-3">
+    <!--Gap-->
+    <div class="col mb-3"></div>
+    <!--FimGap-->
 
-    </div>
-
-    <div class="col mb-3">
+    <div class="col mb-3" id="institucional">
       <h5>Institucional</h5>
       <hr>
       <ul class="nav flex-column">
@@ -187,7 +178,7 @@
       </ul>
     </div>
 
-    <div class="col mb-3">
+    <div class="col mb-3" id="categorias">
       <h5>Categorias</h5>
       <hr>
       <ul class="nav flex-column">
@@ -199,17 +190,29 @@
       </ul>
     </div>
 
-    <div class="col mb-3">
+    <div class="col mb-3" id="followUs">
       <h5>Follow us</h5>
       <hr>
       <ul class="nav col-md-12 justify-content-center list-unstyled d-flex">
-        <li class="ms-3"><a class="text-body-secondary" href="#"><img src="assests/icons/midiaSocial/facebook.svg" class="bi" width="24" height="24"></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><img src="assests/icons/midiaSocial/google.svg" class="bi" width="24" height="24"></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><img src="assests/icons/midiaSocial/instagram.svg" class="bi" width="24" height="24"></a></li>
-        <li class="ms-3"><a class="text-body-secondary" href="#"><img src="assests/icons/midiaSocial/linkedin.svg" class="bi" width="24" height="24"></a></li>
+        <li class="ms-2"><a class="text-body-secondary" href="#"><img src="assests/icons/midiaSocial/facebook.svg" class="bi" width="24" height="24"></a></li>
+
+        <li class="ms-2"><a class="text-body-secondary" href="#"><img src="assests/icons/midiaSocial/google.svg" class="bi" width="24" height="24"></a></li>
+
+        <li class="ms-2"><a class="text-body-secondary" href="#"><img src="assests/icons/midiaSocial/instagram.svg" class="bi" width="24" height="24"></a></li>
+
+        <li class="ms-2"><a class="text-body-secondary" href="#"><img src="assests/icons/midiaSocial/linkedin.svg" class="bi" width="24" height="24"></a></li>
     </ul>
     </div>
-    <p>© 2024 Fix Distribuidora | 39.618.030/0001-00</p>
+<div class="container-fluid">
+    <ul class="list-unstyled d-flex">
+      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#twitter"></use></svg></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#instagram"></use></svg></a></li>
+      <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24"><use xlink:href="#facebook"></use></svg></a></li>
+    </ul>
+
+      <p id="copyright">© 2024 Fix Distribuidora | 39.618.030/0001-00</p>
+  
+    </div>
   </footer>
  <!--Fim Sessão Footer-->
 </body>

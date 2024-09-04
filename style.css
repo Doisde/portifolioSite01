@@ -6,8 +6,8 @@ h2{
 }
 
 #button {
-    background-color: #007bff; /* azul */
-    color: #ffffff; /* branco */
+    background-color: #007bff;
+    color: #ffffff;
     border: none;
     padding: 20px 40px;
     font-size: 18px;
@@ -16,7 +16,7 @@ h2{
   }
   
   #button:hover {
-    background-color: #34c759; /* verde */
+    background-color: #34c759;
   }
   .card{
     all: unset;
@@ -37,4 +37,7 @@ h2{
  }
  #newsletter{
   background-color: #F4F7FC;
+ }
+ #copyright{
+  text-align: center;
  }
